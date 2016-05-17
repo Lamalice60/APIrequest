@@ -16,6 +16,7 @@ mais pour autre api comme RATP :
 regarder la domumentation mais souvent la même chose
 
 /api/datasets/1.0/search/ qualite-de-lair-mesuree-dans-la-station-chatelet /prettyprint=true?
+
 [adresse de request]/[tableau a regarder]/[option=true]?
 
 <h3>>> Gerer la sortie des donnée : http://www.json.org/json-fr.html</h3>
