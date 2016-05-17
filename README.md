@@ -7,7 +7,7 @@ Récuperation de l'API de l'ISS : Cliquez pour afficher la position de l'ISS
 langage : Pocessing
 langage de retour : JSON
 
-> Request par l'url : par exemple :
+<h3>>> Request par l'url : par exemple :</h3>
 
 /iss-now.json : position de l'ISS  l'instant
 
@@ -18,7 +18,7 @@ regarder la domumentation mais souvent la même chose
 /api/datasets/1.0/search/ qualite-de-lair-mesuree-dans-la-station-chatelet /prettyprint=true?
 [adresse de request]/[tableau a regarder]/[option=true]?
 
-> Gerer la sortie des donnée : http://www.json.org/json-fr.html
+<h3>>> Gerer la sortie des donnée : http://www.json.org/json-fr.html</h3>
 
 Tous les valeurs/object/valeurs/... sont associé à une chaine de charactère, par exemple:"latitude": -50.729307362018346,
 -> ne renvoie jamais une valeurs dans définition de cette chaine (qu'est ce que c'est)
