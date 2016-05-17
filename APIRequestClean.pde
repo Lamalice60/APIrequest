@@ -17,7 +17,7 @@ void setup()
 {
   size(700, 700);
   smooth();
-  println("click to load images");
+  println("click to load API");
 }
 
 
@@ -49,8 +49,7 @@ void draw() {
 }
 
 /***********************************************
- When the mouse is clicked request images from the API
- and parse and load the response.
+ When the mouse is clicked request API from the ISS and parse and load the response.
  ************************************************/
 void mouseClicked() {
   println("sending API request...");
@@ -60,9 +59,10 @@ void mouseClicked() {
 
 /***********************************************
  parseResponse parses the JSON image urls into an array.
- Then loads those images from each url.
+ Then loads those data from each url.
  ************************************************/
 void parseResponse() {
+  // affichage du contenu JSON
   println("JSON response: " + get.getContent());
   println("------------------------------------ Success!");
 
